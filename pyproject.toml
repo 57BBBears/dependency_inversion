@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dependency inversion"
+version = "0.1.0"
+description = "Dependency inversion example"
+authors = ["57BBBears https://github.com/57BBBears"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.3.0"
+pyright = "^1.1.314"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
