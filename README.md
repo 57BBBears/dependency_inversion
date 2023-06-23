@@ -1,0 +1,1 @@
+Dependency inversion case inspired by https://habr.com/ru/articles/582588/
