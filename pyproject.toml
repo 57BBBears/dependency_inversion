@@ -14,6 +14,7 @@ black = "^23.3.0"
 pyright = "^1.1.314"
 pytest = "^7.4.0"
 pytest-mock = "^3.11.1"
+mypy = "^1.4.1"
 
 [build-system]
 requires = ["poetry-core"]
